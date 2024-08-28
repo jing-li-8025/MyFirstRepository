@@ -24,7 +24,7 @@ const BlogDetails = () => {
     <div className="blog-detials">
       {error && <div>{error}</div>}
       {isPending && <div>Loading...</div>}
-      <h2>Blog Details - {id}</h2>
+      <h2>Blog Details - New Feature{id}</h2>
       {blog && (
         <article>
           <h2>{blog.title}</h2>
